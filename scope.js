@@ -23,11 +23,12 @@ if (true) {
 for (var i = 1; i <= 0; i++) {
   //Block Scope
 }
+console.log(i);
 
-// function sum(a, b) {
-//   //Function Scope
-//   var result = a + b;
-// }
+function sum(a, b) {
+  //Function Scope
+  var result = a + b;
+}
 
 // console.log(sum(4, 5));
 // console.log(result);

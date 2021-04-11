@@ -29,10 +29,10 @@
 
 // khandeye talkhe man az gerye gham angiz tar astttttt... hey...
 
-function hiii(narges) {
-  console.log(`hello ${narges}`);
-}
-hiii("Azam");
+// function hiii(narges) {
+//   console.log(`hello ${narges}`);
+// }
+// hiii("Azam");
 
-const hello = (narges, lastName) => console.log(`hello ${narges} ${lastName}`);
-hello("Amir", "Pourhadi");
+// const hello = (narges, lastName) => console.log(`hello ${narges} ${lastName}`);
+// hello("Amir", "Pourhadi");

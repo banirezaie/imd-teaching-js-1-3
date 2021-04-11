@@ -9,6 +9,9 @@ const person = {
   lastName: "Nazari",
 };
 
+// numbers.push(15);
+// console.log(numbers);
+
 /* ============================================= */
 
 const answer1 = 42;

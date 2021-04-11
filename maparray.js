@@ -11,21 +11,28 @@
 //   console.log(element);
 // });
 
-// const airplanePassengers = [
-//   "      Sirvan     ",
-//   "      Zahra",
-//   "   Fatemeh",
-//   "Mohsen      ",
-//   "     Azam      ",
-//   "     Shirin      ",
-// ];
+const airplanePassengers = [
+  "      Sirvan     ",
+  "      Zahra   ",
+  "   Fatemeh   ",
+  "Mohsen      ",
+  "     Azam      ",
+  "     Shirin      ",
+];
+
+const newPassengersArr = airplanePassengers.map(passenger => passenger.trim());
+console.log(newPassengersArr);
+
+const newPassengersStr = airplanePassengers.forEach(passenger =>
+  console.log(passenger.trim())
+);
 
 // const newArr = airplanePassengers.map(passenger =>
 //   passenger.trim().toUpperCase()
 // );
 // console.log(newArr);
 
-const greet = name => console.log(`Hey ${name}!`);
+// const greet = name => console.log(`Hey ${name}!`);
 
-greet("Harry");
-greet("Ayda");
+// greet("Harry");
+// greet("Ayda");

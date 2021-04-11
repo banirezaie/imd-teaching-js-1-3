@@ -1,7 +1,8 @@
 // console.log("Hello!!!!!!!!");
+
 // setTimeout(() => {
-//   console.log("Are you still there?");
-// }, 3000);
+//   clearInterval();
+// }, 5000);
 
 // console.log("Good bye");
 
@@ -9,4 +10,6 @@
 //   console.log(Math.random());
 // }, 2000);
 
-// clearInterval()
+// clearInterval();
+
+// setInterval(() => console.log("Hello IMD"), 2000);
